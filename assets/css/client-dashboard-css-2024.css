@@ -1,0 +1,37 @@
+/*
+    Customer Dashboard Styling Overrides
+    Include this Stylesheet code on ALL CUSTOMER PAGES
+    This removes the background for faster loading cause customers
+    hate waiting for websites to load and we like our customers
+    but screw employees.
+*/
+
+body,
+.dark-mode body,
+html[data-theme='dark'] body {
+    background-image: none !important;
+}
+
+.caliweb-navbar,
+.dark-mode .caliweb-navbar {
+    box-shadow: none !important;
+}
+
+.systemLoads,
+.dark-mode .systemLoads {
+    display:none !important;
+}
+
+.container,
+.container.caliweb-container,
+.container.caliweb-navbar-container {
+    width:85%;
+}
+
+.subtitle-text {
+    color: #7A7A7A;
+}
+
+.dark-mode .subtitle-text {
+    color: #CDCDCD;
+}

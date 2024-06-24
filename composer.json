@@ -1,0 +1,13 @@
+{
+    "require": {
+        "stripe/stripe-php": "^14.9",
+        "mongodb/mongodb": "^1.12",
+        "phpmailer/phpmailer": "^6.5",
+        "authorizenet/authorizenet": "^1.9",
+        "google/apiclient": "^2.12",
+        "vlucas/phpdotenv": "^5.6",
+        "rlanvin/php-ip": "^3.0",
+        "mlocati/ip-lib": "^1.18",
+        "twilio/sdk": "^8.0"
+    }
+}
